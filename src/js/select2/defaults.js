@@ -357,6 +357,7 @@ define([
       closeOnSelect: true,
       debug: false,
       dropdownAutoWidth: false,
+      removeOnMouseUp: true,
       escapeMarkup: Utils.escapeMarkup,
       language: EnglishTranslation,
       matcher: matcher,

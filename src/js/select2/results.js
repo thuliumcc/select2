@@ -436,7 +436,7 @@ define([
       var data = $this.data('data');
 
       if ($this.attr('aria-selected') === 'true') {
-        if (self.options.get('multiple')) {
+          if (self.options.get('multiple') && self.options.get('removeOnMouseUp')) {
           self.trigger('unselect', {
             originalEvent: evt,
             data: data
